@@ -25,6 +25,7 @@ $ echo "MySecretPassword" > ~/.ssh/.password
 
 <p>
 Go to <b>scripts</b> folder.</p>
+
 ```bash
 $ bash setup-and-run
 ```
