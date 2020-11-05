@@ -48,6 +48,5 @@ docker run -p ${jenkins_port}:8080 \
 Powershell
 
 ```bash
-$ docker container run -v ${PWD}/.ssh:/var/jenkins_home/.ssh/ --rm --name ${container_name} \
-    ${dockerhub_user}/${image_name}:${image_version} -p ${jenkins_port}:8080 paulokinjo/jenkins:2.0.0
+docker container run -v ${PWD}/.ssh:/var/jenkins_home/.ssh/ -v ${PWD}/downloads:/var/jenkins_home/downloads --rm --name ${container_name} -p ${jenkins_port}:8080 ${dockerhub_user}/${image_name}:${image_version}
 ```

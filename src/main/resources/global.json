@@ -5,9 +5,24 @@
   "scmCheckoutRetryCount": 3,
   "jenkinsRootUrl": "",
   "jenkinsAdminEmail": "Jenkins Admin <paulokinjo@hotmail.com>",
+  "default_repo": "http://github.com/paulokinjo/jenkins",
   "git": {
     "name": "Jenkins Git User",
     "email": "paulokinjo@hotmail.com"
-  }
+  },
+  "environment_variables": [
+    {
+      "key": "default_credentials_id",
+      "value": "jenkins_rsa"
+    },
+    {
+      "key": "default_branch",
+      "value": "master"
+    },
+    {
+      "key": "utility_slave",
+      "value": "master"
+    }
+  ]
 }
 
