@@ -1,0 +1,18 @@
+{
+  "owndb": {
+    "enabled": true,
+    "users": [
+      {
+        "userId": "jenkins",
+        "path": "/var/jenkins_home/.ssh/.password"
+      },
+      {
+        "userId": "hudson",
+        "path": "/var/jenkins_home/.ssh/.password"
+      }
+    ]
+  },
+  "scriptSecurity": {
+    "jobDsl": false
+  }
+}

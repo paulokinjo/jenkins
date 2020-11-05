@@ -1,0 +1,13 @@
+{
+  "utility_slave": "master",
+  "numExecutorsOnMaster": 1,
+  "scmQuietPeriod": 3,
+  "scmCheckoutRetryCount": 3,
+  "jenkinsRootUrl": "",
+  "jenkinsAdminEmail": "Jenkins Admin <paulokinjo@hotmail.com>",
+  "git": {
+    "name": "Jenkins Git User",
+    "email": "paulokinjo@hotmail.com"
+  }
+}
+

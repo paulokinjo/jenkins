@@ -1,0 +1,10 @@
+[
+  {
+    "name": "jenkins_as_a_code-initial_a",
+    "branch": "master",
+    "credentialsId": "jenkins_rsa",
+    "repo": "https://github.com/rodrigogrohl/vaccine-cards.git",
+    "path": "jobdsl-gradle/src/jobs/groovy/*.groovy",
+    "classpath": "jobdsl-gradle/src/main/groovy"
+  }
+]

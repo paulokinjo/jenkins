@@ -1,33 +1,53 @@
-# jenkins
+# Jenkins AUTOMATION
 
-## Open up a command prompt window.
+# SSH KEY
 
-### Create a bridge network in Docker using the following docker network create command:
+<a href="https://www.ssh.com/ssh/keygen/">ssh-keygen - Generate a New SSH Key</a>
 
-<code>docker network create jenkins</code>
+## What Is ssh-keygen?
 
-### Create the following volumes to share the Docker client TLS certificates needed to connect to the Docker daemon and persist the Jenkins data using the following docker volume create commands:
+<p>The SSH protocol uses public key cryptography for authenticating hosts and users. The authentication keys, called SSH keys, are created using the keygen program.</p>
+<p>...</p>
 
-<code>docker volume create jenkins-docker-certs</code>
-<br>
-<code>docker volume create jenkins-data</code>
+## Creating an SSH Key Pair for User Authentication
 
-### In order to execute Docker commands inside Jenkins nodes, download and run the docker:dind Docker image using the following docker container run command:
+```bash
+ssh-keygen -t rsa -b 4096
+```
 
-<code>docker container run --name jenkins-docker --rm --detach 
-  --privileged --network jenkins --network-alias docker 
-  --env DOCKER_TLS_CERTDIR=/certs 
-  --volume jenkins-docker-certs:/certs/client 
-  --volume jenkins-data:/var/jenkins_home 
-  --volume ${PWD}:/home 
-  docker:dind</code>
+# Create the password file
 
-### Run the jenkinsci/blueocean image as a container in Docker using the following docker container run command (bearing in mind that this command automatically downloads the image if this hasn’t been done):
+```bash
+$ echo "MySecretPassword" > ~/.ssh/.password
+```
 
-<code>docker container run --name jenkins-blueocean --rm --detach 
-  --network jenkins --env DOCKER_HOST=tcp://docker:2376 
-  --env DOCKER_CERT_PATH=/certs/client --env DOCKER_TLS_VERIFY=1 
-  --volume jenkins-data:/var/jenkins_home 
-  --volume jenkins-docker-certs:/certs/client:ro 
-  --volume ${PWD}:/home 
-  --publish 8080:8080 --publish 50000:50000 jenkinsci/blueocean</code>
+# Run the script
+
+<p>
+Go to <b>scripts</b> folder.</p>
+```bash
+$ bash setup-and-run
+```
+
+# Run Docker
+
+## Linux
+
+```bash
+docker run -p ${jenkins_port}:8080 \
+    -v `pwd`/downloads:/var/jenkins_home/downloads \
+    -v `pwd`/jobs:/var/jenkins_home/jobs/ \
+    -v `pwd`/m2deps:/var/jenkins_home/.m2/repository/ \
+    -v $HOME/.ssh:/var/jenkins_home/.ssh/ \
+    --rm --name ${container_name} \
+    ${dockerhub_user}/${image_name}:${image_version}
+```
+
+## Windows
+
+Powershell
+
+```bash
+$ docker container run -v ${PWD}/.ssh:/var/jenkins_home/.ssh/ --rm --name ${container_name} \
+    ${dockerhub_user}/${image_name}:${image_version} -p ${jenkins_port}:8080 paulokinjo/jenkins:2.0.0
+```
