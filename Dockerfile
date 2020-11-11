@@ -1,17 +1,27 @@
 FROM jenkins/jenkins:2.265
 
-LABEL Author="Paulo Kinjo"
-
-ARG master_image_version="v.2.0.0"
-ENV master_image_version $master_image_version
-
+# Install Maven
 USER root
-RUN apt-get update && apt-get install -y make git openjdk-8-jdk
+
+RUN apt-get update && \
+  apt-get install -y maven
+
+RUN mkdir /srv/backup && chown jenkins:jenkins /srv/backup
 
 USER jenkins
 
-COPY ./scripts/plugins.txt /usr/share/jenkins/ref/plugins.txt
-RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
+# Distributed Builds plugins
+RUN /usr/local/bin/install-plugins.sh ssh-slaves
 
-COPY ./src/main/groovy/* /usr/share/jenkins/ref/init.groovy.d/
-COPY ./src/main/resources/*.json ${JENKINS_HOME}/config/
+# UI
+RUN /usr/local/bin/install-plugins.sh simple-theme-plugin
+
+# Scaling
+RUN /usr/local/bin/install-plugins.sh kubernetes
+
+# Administration
+RUN /usr/local/bin/install-plugins.sh thinBackup
+
+ENV BACKUP_VERSION=FULL-2020-11-11_05-00
+
+COPY --chown=jenkins:jenkins data/${BACKUP_VERSION} /var/jenkins_home

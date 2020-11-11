@@ -1,0 +1,26 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave plugin="kubernetes@1.28.0">
+  <name>jenkins-slave-rmtt6</name>
+  <description>jenkins-slave</description>
+  <numExecutors>1</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="org.jenkinsci.plugins.durabletask.executors.OnceRetentionStrategy" plugin="durable-task@1.35">
+    <idleMinutes>5</idleMinutes>
+    <idleMinutes defined-in="org.jenkinsci.plugins.durabletask.executors.OnceRetentionStrategy">5</idleMinutes>
+  </retentionStrategy>
+  <launcher class="org.csanchez.jenkins.plugins.kubernetes.KubernetesLauncher">
+    <workDirSettings>
+      <disabled>false</disabled>
+      <internalDir>remoting</internalDir>
+      <failIfWorkDirIsMissing>false</failIfWorkDirIsMissing>
+    </workDirSettings>
+    <webSocket>false</webSocket>
+    <launched>true</launched>
+  </launcher>
+  <label>jenkins-slave</label>
+  <nodeProperties/>
+  <cloudName>kubernetes</cloudName>
+  <namespace>default</namespace>
+  <podTemplateId>6c966739-3da9-43ed-b002-45495cad9eb0</podTemplateId>
+  <remoteFS>/home/jenkins/agent</remoteFS>
+</org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave>

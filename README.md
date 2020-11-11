@@ -1,53 +1,114 @@
-# Jenkins AUTOMATION
+# Jenkins Auto Scaling on top of Kubernetes
 
-# SSH KEY
+# Generating Jenkins Master Image
 
-<a href="https://www.ssh.com/ssh/keygen/">ssh-keygen - Generate a New SSH Key</a>
+First check the /data directory, to identify which backup the jenkins master server must restore.
 
-## What Is ssh-keygen?
+Second check the Dockerfile and update the "BACKUP_VERSION" env variable accordingly.
 
-<p>The SSH protocol uses public key cryptography for authenticating hosts and users. The authentication keys, called SSH keys, are created using the keygen program.</p>
-<p>...</p>
+Finally:
 
-## Creating an SSH Key Pair for User Authentication
-
-```bash
-ssh-keygen -t rsa -b 4096
+```
+$ docker build -t paulokinjo/jenkins:1.0.0 .
 ```
 
-# Create the password file
+# Kubernetes
 
-```bash
-$ echo "MySecretPassword" > ~/.ssh/.password
+## Dashboard
+
+Go to /kubernetes/dashboard directory
+
+```
+$ kubectl apply -f service-account.yml
 ```
 
-# Run the script
-
-<p>
-Go to <b>scripts</b> folder.</p>
-
-```bash
-$ bash setup-and-run
+```
+$ kubectl apply -f cluster-role-binding.yml
 ```
 
-# Run Docker
+Install the Dashboard application into the cluster
 
-## Linux
-
-```bash
-docker run -p ${jenkins_port}:8080 \
-    -v `pwd`/downloads:/var/jenkins_home/downloads \
-    -v `pwd`/jobs:/var/jenkins_home/jobs/ \
-    -v `pwd`/m2deps:/var/jenkins_home/.m2/repository/ \
-    -v $HOME/.ssh:/var/jenkins_home/.ssh/ \
-    --rm --name ${container_name} \
-    ${dockerhub_user}/${image_name}:${image_version}
+```
+$ kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-rc6/aio/deploy/recommended.yaml
 ```
 
-## Windows
+Get the Token for the ServiceAccount
 
-Powershell
-
-```bash
-docker container run -v ${PWD}/.ssh:/var/jenkins_home/.ssh/ -v ${PWD}/downloads:/var/jenkins_home/downloads --rm --name ${container_name} -p ${jenkins_port}:8080 ${dockerhub_user}/${image_name}:${image_version}
 ```
+$ kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
+```
+
+Start a kubectl proxy
+
+```
+$ kubectl proxy
+```
+
+Enter the URL on your browser:
+
+```
+http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
+```
+
+# Jenkins
+
+## Master
+
+Go to /kubernetes/jenkins
+
+```
+$ kubectl apply -f jenkins-service.yml
+```
+
+```
+$ kubectl apply -f jenkins-deployment.yml
+```
+
+Get the jenkins service port
+
+```
+$ kubectl describe service jenkins
+```
+
+```
+Name:                     jenkins
+Namespace:                default
+Labels:                   <none>
+Annotations:              <none>
+Selector:                 app=jenkins
+Type:                     NodePort
+IP:                       10.102.148.47
+LoadBalancer Ingress:     localhost
+Port:                     <unset>  8080/TCP
+TargetPort:               8080/TCP
+NodePort:                 <unset>  32123/TCP
+Endpoints:                10.1.0.80:8080
+Session Affinity:         None
+External Traffic Policy:  Cluster
+```
+
+Access the NodePort: http://localhost:32123
+
+## Configuring Kubernetes
+
+Go to http://localhost:32123/configureClouds/
+
+Check if the Kubernetes URL matches:
+
+```
+$ kubectl cluster-info | grep master
+```
+
+Check if the Jenkins URL matches the end point for the service above:
+
+```
+Endpoints:                10.1.0.80:8080
+```
+
+All Done.
+
+# References
+
+<a href="https://www.blazemeter.com/blog/how-to-setup-scalable-jenkins-on-top-of-a-kubernetes-cluster/">
+How to Setup Scalable Jenkins on Top of a Kubernetes Cluster
+</a>
