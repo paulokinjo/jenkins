@@ -89,6 +89,10 @@ External Traffic Policy:  Cluster
 
 Access the NodePort: http://localhost:32123
 
+# Credentials
+
+jenkins:jenkins
+
 ## Configuring Kubernetes
 
 Go to http://localhost:32123/configureClouds/
