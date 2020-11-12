@@ -81,13 +81,13 @@ IP:                       10.102.148.47
 LoadBalancer Ingress:     localhost
 Port:                     <unset>  8080/TCP
 TargetPort:               8080/TCP
-NodePort:                 <unset>  32123/TCP
+NodePort:                 <unset>  30080/TCP
 Endpoints:                10.1.0.80:8080
 Session Affinity:         None
 External Traffic Policy:  Cluster
 ```
 
-Access the NodePort: http://localhost:32123
+Access the NodePort: http://localhost:30080
 
 # Credentials
 
