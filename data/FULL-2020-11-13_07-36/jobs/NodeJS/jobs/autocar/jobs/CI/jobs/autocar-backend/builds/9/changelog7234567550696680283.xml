@@ -1,0 +1,10 @@
+commit 82a8b0dd8be5a2de04fb57ffb49945f53591ad95
+tree cd958bc8406a93ac2ef781b0f24ebc9a06cc7fe4
+parent 5f27eea2e2e865a3ccacac0330a9db2e1d8ae42c
+author Paulo Kinjo <paulokinjo@hotmail.com> 2020-11-13 13:25:02 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2020-11-13 13:25:02 +0900
+
+    Add nodejs app initial Jenkinsfile
+
+
+:100644 100644 228651aa2696a3d20bd180033e12c10681da9a00 911ee0a5f4387de4130e76b24274178f3177c0b5 M	jenkins/CI/Jenkinsfile

@@ -1,0 +1,59 @@
+Started by user [8mha:////4O+r5cSnKAfZuGiTNFaLl9sQIPuXZ6tyDARp4RBnIBzKAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL9rNS87My8YgCfaQ5RwgAAAA==[0mJenkins Admin
+Checking out git https://github.com/paulokinjo/nodejs-autocar into /var/jenkins_home/workspace/NodeJS/autocar/CI/autocar-backend@script to read jenkins/CI/Jenkinsfile
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Wiping out workspace first.
+Cloning the remote Git repository
+Cloning repository https://github.com/paulokinjo/nodejs-autocar
+ > git init /var/jenkins_home/workspace/NodeJS/autocar/CI/autocar-backend@script # timeout=10
+Fetching upstream changes from https://github.com/paulokinjo/nodejs-autocar
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+ > git fetch --tags --progress -- https://github.com/paulokinjo/nodejs-autocar +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/paulokinjo/nodejs-autocar # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse origin/main^{commit} # timeout=10
+Checking out Revision 740f00c677bef120c61616b6c3c466f3ac64f0e9 (origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 740f00c677bef120c61616b6c3c466f3ac64f0e9 # timeout=10
+Commit message: "Add nodejs app initial Jenkinsfile"
+ > git rev-list --no-walk 1cc5f8d0592ec19963e65daef3cb84dd07a609ed # timeout=10
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4NO9xc7cd/hxsdv9DDfdrGnBRGypQJE0D1pq6EHna9pTAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4CoXcBJzd3bUmHRpdf38EmkcrAt5CAqzazandO937B+rAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQSbaGmsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfya1RxvAAAAA==[0m[Pipeline] readTrusted
+ERROR: Could not do lightweight checkout, falling back to heavyweight
+java.io.FileNotFoundException
+	at jenkins.plugins.git.GitSCMFile.lambda$content$2(GitSCMFile.java:164)
+	at jenkins.plugins.git.GitSCMFileSystem.lambda$invoke$e8567d7e$1(GitSCMFileSystem.java:182)
+	at org.jenkinsci.plugins.gitclient.AbstractGitAPIImpl.withRepository(AbstractGitAPIImpl.java:29)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.withRepository(CliGitAPIImpl.java:84)
+	at jenkins.plugins.git.GitSCMFileSystem.invoke(GitSCMFileSystem.java:182)
+	at jenkins.plugins.git.GitSCMFile.content(GitSCMFile.java:158)
+	at jenkins.scm.api.SCMFile.contentAsString(SCMFile.java:335)
+	at org.jenkinsci.plugins.workflow.multibranch.ReadTrustedStep$Execution.run(ReadTrustedStep.java:104)
+	at org.jenkinsci.plugins.workflow.multibranch.ReadTrustedStep$Execution.run(ReadTrustedStep.java:82)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)
+	at hudson.security.ACL.impersonate2(ACL.java:449)
+	at hudson.security.ACL.impersonate(ACL.java:461)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[8mha:////4OGM4SY1vuljUBHmGehJpyi95l6mGKC+FdPgE+P6GTSEAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQSbGDtjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9bqvXovAAAAA==[0m[Pipeline] End of Pipeline
+java.io.IOException: /kubernetes/docker-agent-pod.yaml is not inside /var/jenkins_home/workspace/NodeJS/autocar/CI/autocar-backend@script
+	at org.jenkinsci.plugins.workflow.multibranch.ReadTrustedStep$Execution.run(ReadTrustedStep.java:136)
+	at org.jenkinsci.plugins.workflow.multibranch.ReadTrustedStep$Execution.run(ReadTrustedStep.java:82)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)
+	at hudson.security.ACL.impersonate2(ACL.java:449)
+	at hudson.security.ACL.impersonate(ACL.java:461)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Finished: FAILURE

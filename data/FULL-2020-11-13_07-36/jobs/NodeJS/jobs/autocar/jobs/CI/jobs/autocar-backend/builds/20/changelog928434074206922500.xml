@@ -1,0 +1,10 @@
+commit 081d7bdfcc0bfa59c5597d9433b6b2b9459ad246
+tree 203e32161b3a636819e5387493f4e5736aecdf3f
+parent 6bbe70c0b9b4364143d0377f710e4080523a29cf
+author Paulo Kinjo <paulokinjo@hotmail.com> 2020-11-13 14:49:03 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2020-11-13 14:49:03 +0900
+
+    Fix Dockerfile typo
+
+
+:100644 100644 5d7a6815da60c812d5cb1545f02e17ee56c879b8 edc04f277d1fc9aa4a1e46a560124f8368d24f1f M	Dockerfile

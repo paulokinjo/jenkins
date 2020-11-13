@@ -1,0 +1,11 @@
+commit 740f00c677bef120c61616b6c3c466f3ac64f0e9
+tree dd57cd24960b4a6e10903e29c354dab8d7a24e7b
+parent 1cc5f8d0592ec19963e65daef3cb84dd07a609ed
+author Paulo Kinjo <paulokinjo@hotmail.com> 2020-11-13 13:27:13 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2020-11-13 13:27:13 +0900
+
+    Add nodejs app initial Jenkinsfile
+
+
+:100644 100644 c176ba25e82ffbcc045d3d8eb9f5a8a6e833cce7 9b306322ba358375002f35f9cdd7f7f21c09ccb2 M	jenkins/CI/Jenkinsfile
+:100644 000000 cb1f500711b373eb537c6628221f1b574d71c582 0000000000000000000000000000000000000000 D	jenkins/CI/kubernetes/docker-agent-pod.yaml

@@ -1,0 +1,172 @@
+Started by user [8mha:////4O+r5cSnKAfZuGiTNFaLl9sQIPuXZ6tyDARp4RBnIBzKAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL9rNS87My8YgCfaQ5RwgAAAA==[0mJenkins Admin
+Obtained jenkins/CI/Jenkinsfile from git https://github.com/paulokinjo/nodejs-autocar
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4NO9xc7cd/hxsdv9DDfdrGnBRGypQJE0D1pq6EHna9pTAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4CoXcBJzd3bUmHRpdf38EmkcrAt5CAqzazandO937B+rAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQSbaGmsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfya1RxvAAAAA==[0m[Pipeline] readTrusted
+Obtained docker-agent-pod.yaml from git https://github.com/paulokinjo/nodejs-autocar
+[8mha:////4DysfYpCA2+8cbfyO89fp4JcQZOAWtRnXU5IGMhP5sprAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQSbGDtjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED81/RU+vAAAAA==[0m[Pipeline] echo
+[WARNING] label option is deprecated. To use a static pod template, use the 'inheritFrom' option.
+[8mha:////4Cz0NbuqVcasu/CRVn9wZeTmiSF6uSVzRJylYPQVJtT2AAAAph+LCAAAAAAAAP9tjUEKwjAURH8qXbh16SFSEFyJK7chG08QkxjThv/bJLVdeSKv5h2MFlw5MDAzMLznC+oU4UjR8dZi5zFpz/swupL4RLG7Bpp4SxeuCRMFy6WdJBl7WqqkbGERq2AlYG1RB0oeXYaNaNVdNUGha845lu0goPJmgAcwUchZxfwtc4TtbTSJ8Mf5C4C5z8B2xfvPr34Dc4dAdcAAAAA=[0m[Pipeline] podTemplate
+[8mha:////4JQkXrRWi7Io/H2ZXITFiHtKtNSFSjojVkHQCorFSXZ+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4J9gLfcJwYdTwyYFXiQQ5mILAZ4gfeIu8kl99TqdNRE5AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] node
+Created Pod: default/docker-in-docker-maven-jz566-t7rsb
+[Normal][default/docker-in-docker-maven-jz566-t7rsb][Scheduled] Successfully assigned default/docker-in-docker-maven-jz566-t7rsb to docker-desktop
+Still waiting to schedule task
+‘[8mha:////4F8wnohKFxSg5tdb/Sc9VLz5B8xTzhCLpB6rN8EuDNyNAAAAtB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAylEgZd/eT83ILSktQi/ZT85OzUIt3MPF0oKzexLDVPN6vK1MxMt8S8qDhJHwBfCtA14gAAAA==[0mdocker-in-docker-maven-jz566-t7rsb’ is offline
+[Normal][default/docker-in-docker-maven-jz566-t7rsb][Pulled] Container image "docker:19.03.1-dind" already present on machine
+[Normal][default/docker-in-docker-maven-jz566-t7rsb][Created] Created container docker-daemon
+[Normal][default/docker-in-docker-maven-jz566-t7rsb][Started] Started container docker-daemon
+[Normal][default/docker-in-docker-maven-jz566-t7rsb][Pulled] Container image "docker:19.03.1" already present on machine
+[Normal][default/docker-in-docker-maven-jz566-t7rsb][Created] Created container docker-client
+[Normal][default/docker-in-docker-maven-jz566-t7rsb][Started] Started container docker-client
+[Normal][default/docker-in-docker-maven-jz566-t7rsb][Pulled] Container image "jenkins/inbound-agent:4.3-4" already present on machine
+[Normal][default/docker-in-docker-maven-jz566-t7rsb][Created] Created container jnlp
+[Normal][default/docker-in-docker-maven-jz566-t7rsb][Started] Started container jnlp
+Agent [8mha:////4J85B7gk4bjNEqgxnlhIC/4b8A4g/kTk1MpY9/Kb3jEPAAAAsx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAylEgYd/eT83ILSktQi/ZT85OzUIt3MPF0oKzexLDVPN6vK1MxMt8S8qDgJAG39XsnhAAAA[0mdocker-in-docker-maven-jz566-t7rsb is provisioned from template docker-in-docker-maven-jz566
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://10.1.0.186:8080/job/NodeJS/job/autocar/job/CI/job/autocar-backend/17/"
+    runUrl: "job/NodeJS/job/autocar/job/CI/job/autocar-backend/17/"
+  labels:
+    jenkins: "slave"
+    jenkins/label-digest: "d3bc9fc1c88d02de79463c7a2f6d5a5773fcc6b2"
+    jenkins/label: "docker-in-docker-maven"
+  name: "docker-in-docker-maven-jz566-t7rsb"
+spec:
+  containers:
+  - env:
+    - name: "DOCKER_TLS_CERTDIR"
+      value: ""
+    image: "docker:19.03.1-dind"
+    name: "docker-daemon"
+    securityContext:
+      privileged: true
+    volumeMounts:
+    - mountPath: "/var/lib/docker"
+      name: "cache"
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "sleep"
+    - "99d"
+    env:
+    - name: "DOCKER_HOST"
+      value: "tcp://localhost:2375"
+    image: "docker:19.03.1"
+    name: "docker-client"
+    volumeMounts:
+    - mountPath: "/tmp/repository"
+      name: "cache"
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_AGENT_NAME"
+      value: "docker-in-docker-maven-jz566-t7rsb"
+    - name: "JENKINS_NAME"
+      value: "docker-in-docker-maven-jz566-t7rsb"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://10.1.0.186:8080/"
+    image: "jenkins/inbound-agent:4.3-4"
+    name: "jnlp"
+    resources:
+      requests:
+        cpu: "100m"
+        memory: "256Mi"
+    volumeMounts:
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/tmp"
+      type: "Directory"
+    name: "cache"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4F8wnohKFxSg5tdb/Sc9VLz5B8xTzhCLpB6rN8EuDNyNAAAAtB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAylEgZd/eT83ILSktQi/ZT85OzUIt3MPF0oKzexLDVPN6vK1MxMt8S8qDhJHwBfCtA14gAAAA==[0mdocker-in-docker-maven-jz566-t7rsb in /home/jenkins/agent/workspace/NodeJS/autocar/CI/autocar-backend
+[8mha:////4FfH5fUNNtN9lGNP6rXE6VmyJYjPMr+aEvNDAoucrIAKAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4PEbJji7GkAoMaWqERSP4PTJFDONnjiRdyttsBauf6JpAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] stage
+[8mha:////4FPnNHRHTaa3s1fkY2innx0pVMhWXG9fKi/BJbZ4BK6LAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4NtOrsWnVrofxqM0P3giEo3XCCwwqNO8Dx5zyGdvNjSBAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/paulokinjo/nodejs-autocar
+ > git init /home/jenkins/agent/workspace/NodeJS/autocar/CI/autocar-backend # timeout=10
+Fetching upstream changes from https://github.com/paulokinjo/nodejs-autocar
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+ > git fetch --tags --force --progress -- https://github.com/paulokinjo/nodejs-autocar +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision ca65c9dd32235367a2bd33f03ba4ea24cfd4a642 (origin/main)
+ > git config remote.origin.url https://github.com/paulokinjo/nodejs-autocar # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ca65c9dd32235367a2bd33f03ba4ea24cfd4a642 # timeout=10
+Commit message: "Separate agent pod yml file from Jenkinsfile"
+ > git rev-list --no-walk a298a416c5960122031f2c96c599da37b18688b0 # timeout=10
+[8mha:////4G0IEFJSCGTTdOVH/2gOZYLSPNavfTRrQKyl1mUUMa5rAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMYQM5W7/qe0bsgYiW74AAAA=[0m[Pipeline] }
+[8mha:////4K165+GCpEQoWdiYbPZ5SO8MnMXmSAtmY/g4wWmejyYRAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP6C1U670AAAA=[0m[Pipeline] // stage
+[8mha:////4HS1/P4n1Cltnu1YQNR42xO5m1CQ5lvTyhrLIkSzd+bOAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJAokREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgdQ7HZfo7lG2c0ocDBAAAA[0m[Pipeline] withEnv
+[8mha:////4DwsejsCsJwAyUKulrTJNhESX84MLDqAf84bn9j1TehSAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4E2XkMGn7LZKL4OV9L1fw+AobUsbV4c6woJfluGOXL21AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
+[8mha:////4HrGFP9Ai8Fd3ILeY2TkMTNavJyY8A8/a0egq4lX/TSNAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Build)
+[8mha:////4MYnJzQ7yza00Dv8wpeg7BQlIvO+MkSlsvltFbemPfyAAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] container
+[8mha:////4FxBoTCRlVX0ZiYruaa1/LRmZn/I/2kHNC0O6gc5Zij5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4O4iVqK2ZCsiLUaryODKKZIyp1Pts0fyaqb1PV0XpLzPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ docker version
+Client: Docker Engine - Community
+ Version:           19.03.1
+ API version:       1.40
+ Go version:        go1.12.5
+ Git commit:        74b1e89e8a
+ Built:             Thu Jul 25 21:17:37 2019
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          19.03.1
+  API version:      1.40 (minimum version 1.12)
+  Go version:       go1.12.5
+  Git commit:       74b1e89e8a
+  Built:            Thu Jul 25 21:27:55 2019
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v1.2.6
+  GitCommit:        894b81a4b802e4eb2a91d1ce216b8817763c29fb
+ runc:
+  Version:          1.0.0-rc8
+  GitCommit:        425e105d5a03fabd737a126ad93d62a9eeede87f
+ docker-init:
+  Version:          0.18.0
+  GitCommit:        fec3683
+[8mha:////4Bu0vrjNnCvxXexsfu5+Tqe7UXLyLsicjvA1ZW4aqPieAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiXWgpW+AAAA[0m[Pipeline] }
+[8mha:////4FdF1c/1TV9OhNOvHy57pWd1T7l6HsFzLjrU1KAUty09AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] // container
+[8mha:////4KgaguQEbQq6S0O9Z2sjkI543czD9o3ihpU/mNL+Ll1YAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8pWvI/vgAAAA==[0m[Pipeline] }
+[8mha:////4PxFwSfcMPY1iDjhnnwFhq6ZF0AcloX1RTfrWloZS6j3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8HWvBVvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DB5FcacdZwTYpP/CAJ9jfRYjcDKOLWUoTfVYQR6u6zPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikFIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QEY2KUHvgAAAA==[0m[Pipeline] }
+[8mha:////4CBKfMmfTS/3qR+p/LuCaXS41NK0FQAzU9YmAhNgJFuzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w8gmjb2vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4L/Xl2ZvTHyA8rBoLvTcDdICNgZuadcK6pZ8TtZwzDl5AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRaEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/ABDJR++9AAAA[0m[Pipeline] }
+[8mha:////4JO4lTGdRRaM8scLik0B6CY+h9qLZAP0Fj4TnRbOmRJmAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRaEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AFBDqP29AAAA[0m[Pipeline] // node
+[8mha:////4A37TnbRRIkUv0Npdrx+xvxCXySH4uauxgHTNQCR/NNXAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA3Zaz7e9AAAA[0m[Pipeline] }
+[8mha:////4BVVI9fSQBOUHz8nm/2EX+xHfdWnu/rudY5+tnePHlcAAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBQlSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPGLqK6L0AAAA=[0m[Pipeline] // podTemplate
+[8mha:////4BOjF3F16ePj1ngcu0keL4OzhFNZEtfW2kLY8gvSxmStAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny/VaQ7T4LBo5LvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

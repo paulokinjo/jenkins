@@ -1,0 +1,11 @@
+commit 5bee795c21faec165428e09993a5934e1f70697b
+tree 4bea02dde4eefc8ceef4f1d5a9fbafa18d594c36
+parent ca65c9dd32235367a2bd33f03ba4ea24cfd4a642
+author Paulo Kinjo <paulokinjo@hotmail.com> 2020-11-13 14:29:51 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2020-11-13 14:29:51 +0900
+
+    Refactor kubernetes file
+
+
+:100644 100644 faefaa56fe7f833ebed4782293632c0e3def45bc 26b5ce10287c734d678be7e060a972462e24a67f M	jenkins/CI/Jenkinsfile
+:100644 100644 cb1f500711b373eb537c6628221f1b574d71c582 cb1f500711b373eb537c6628221f1b574d71c582 R100	docker-agent-pod.yaml	kubernetes/docker-agent-pod.yaml

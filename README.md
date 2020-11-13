@@ -111,6 +111,18 @@ Endpoints:                10.1.0.80:8080
 
 All Done.
 
+# Backup
+
+Access ThinBackup
+
+Once the backup is generated go to <b>kubernetes/scripts</b> directory and run the following:
+
+```
+$ bash copy-jenkins-backup.sh <POD_NAME>
+```
+
+This will copy the generated backup to the <b>/data</b> directory
+
 # References
 
 <a href="https://www.blazemeter.com/blog/how-to-setup-scalable-jenkins-on-top-of-a-kubernetes-cluster/">
