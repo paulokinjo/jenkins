@@ -24,6 +24,6 @@ USER jenkins
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
 
-ENV BACKUP_VERSION=FULL-2020-11-11_10-58
+ENV BACKUP_VERSION=FULL-2020-11-12_08-06
 
 COPY --chown=jenkins:jenkins data/${BACKUP_VERSION} /var/jenkins_home

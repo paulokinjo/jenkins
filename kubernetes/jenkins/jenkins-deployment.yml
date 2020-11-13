@@ -18,7 +18,7 @@ spec:
         - name: dind-storage
           emptyDir: {}
       containers:
-        - image: paulokinjo/jenkins:1.0.0
+        - image: paulokinjo/jenkins:2.0.0
           name: jenkins
           resources:
             requests:
