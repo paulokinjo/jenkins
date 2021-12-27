@@ -1,11 +1,12 @@
 ---
 - name: "[Java] Add OpenJDK PPA"
-  apt_repository: 
+  ansible.builtin.apt_repository: 
     repo: 'ppa:openjdk-r/ppa'
+    state: present
 
 - name: "[Java] Install OpenJDK"
   apt: 
-    pkg: openjdk-{{ java_major_version }}-jdk
+    name: openjdk-{{ java_major_version }}-jdk
     state: present
 
 - name: "[Java] Determine if JDK CA certificates directory exists"
