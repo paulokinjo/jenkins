@@ -16,3 +16,4 @@ user.gradle
 *.classpath
 *.project
 .ssh
+*.vagrant
