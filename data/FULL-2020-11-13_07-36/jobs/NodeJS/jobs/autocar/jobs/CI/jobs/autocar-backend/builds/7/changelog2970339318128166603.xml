@@ -1,9 +1,0 @@
-commit 4ca1d410d2c50c495c7980cc916964570f13469c
-tree 13a671a16557cf6d497eee523081a6cc2c4e35bf
-parent 5f27eea2e2e865a3ccacac0330a9db2e1d8ae42c
-author Paulo Kinjo <paulokinjo@hotmail.com> 2020-11-13 13:21:38 +0900
-committer GitHub <noreply@github.com> 2020-11-13 13:21:38 +0900
-
-    Update Jenkinsfile
-
-:100644 100644 228651aa2696a3d20bd180033e12c10681da9a00 07fa4185c505e59b34e691ba99287e6ad4b98e56 M	jenkins/CI/Jenkinsfile
