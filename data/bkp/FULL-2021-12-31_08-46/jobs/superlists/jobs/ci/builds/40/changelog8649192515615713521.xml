@@ -1,0 +1,10 @@
+commit c096028ec03d0c36c209b187271cbc264f8b809d
+tree f2ca67843e37a589f849d01116dd8f9d96315738
+parent 60a6bfdb2cbc33b33572fd01592a1151a0f7a34c
+author vagrant <vagrant@docker1> 2021-12-31 08:41:32 +0000
+committer vagrant <vagrant@docker1> 2021-12-31 08:41:32 +0000
+
+    Implement docker push
+
+
+:100644 100644 4b4a72a8e566df5cea42fae724c1b3a7b28e916f 2f7d15e676c2fb74ffde7afd3e8ee702f0848620 M	tdd/goat/app/jenkins/ci/Jenkinsfile

@@ -1,0 +1,10 @@
+commit 09087d6c8214ef01385787d756abd414370e83d8
+tree 2a915e971ac75c2a470a7a660f846b38a1b692ce
+parent 5e8b1cc7c9d28ee12591c74bb113ebd019885ef4
+author vagrant <vagrant@docker1> 2021-12-31 08:44:19 +0000
+committer vagrant <vagrant@docker1> 2021-12-31 08:44:19 +0000
+
+    trying to fix the docker creds
+
+
+:100644 100644 58272b9cf65265e7b97361f852c45b148028aee6 1f6c695c54a4cdf92bf06af475a3409a5bb04d98 M	tdd/goat/app/jenkins/ci/Jenkinsfile

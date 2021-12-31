@@ -1,29 +1,16 @@
-FROM jenkins/jenkins:2.266
-
-# Install Maven
+FROM jenkins/jenkins:2.319.1-jdk11
 USER root
-
-ENV DOCKERVERSION=19.03.13
-
-RUN apt-get update && \
-  apt-get install -y maven curl
-
-RUN curl -fsSLO https://download.docker.com/linux/static/stable/x86_64/docker-${DOCKERVERSION}.tgz \
-  && tar xzvf docker-${DOCKERVERSION}.tgz --strip 1 \
-  -C /usr/local/bin docker/docker \
-  && rm docker-${DOCKERVERSION}.tgz
-
-RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl \
-  && chmod +x ./kubectl \
-  && mv ./kubectl /usr/local/bin/kubectl
-
-RUN mkdir /srv/backup && chown jenkins:jenkins /srv/backup
-
+RUN apt-get update && apt-get install -y lsb-release
+RUN curl -fsSLo /usr/share/keyrings/docker-archive-keyring.asc \
+  https://download.docker.com/linux/debian/gpg
+RUN echo "deb [arch=$(dpkg --print-architecture) \
+  signed-by=/usr/share/keyrings/docker-archive-keyring.asc] \
+  https://download.docker.com/linux/debian \
+  $(lsb_release -cs) stable" > /etc/apt/sources.list.d/docker.list
+RUN apt-get update && apt-get install -y docker-ce-cli
 USER jenkins
+RUN jenkins-plugin-cli --plugins "blueocean:1.25.2 docker-workflow:1.26"
 
-COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
-RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
+ENV BACKUP_VERSION=FULL-2021-12-31_08-46
 
-ENV BACKUP_VERSION=FULL-2020-11-13_07-36
-
-COPY --chown=jenkins:jenkins data/${BACKUP_VERSION} /var/jenkins_home
+COPY --chown=jenkins:jenkins data/bkp/${BACKUP_VERSION} /var/jenkins_home

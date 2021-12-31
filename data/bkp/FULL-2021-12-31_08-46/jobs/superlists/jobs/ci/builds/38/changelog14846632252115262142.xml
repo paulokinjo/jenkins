@@ -1,0 +1,10 @@
+commit fb09bff741b0e72839a7312ca8615064d1b5be1b
+tree 89cc6968f690093bd3cf68af8874c08b9cd8afb6
+parent f8c537dc59c1943f644a757edfad39bb71afbf00
+author vagrant <vagrant@docker1> 2021-12-31 08:38:44 +0000
+committer vagrant <vagrant@docker1> 2021-12-31 08:38:44 +0000
+
+    Add workspace to superlists jenkinsfile
+
+
+:100644 100644 440972e54b9ec17f122b80cac5b15b9d5d5d152e b39ee8083a50bef0bc4af202751bdd46341c0df3 M	tdd/goat/app/jenkins/ci/Jenkinsfile
