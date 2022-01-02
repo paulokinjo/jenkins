@@ -1,0 +1,11 @@
+commit 5fa5eb1c7134e20cdd8bbdf0d9403b4449e6239a
+tree a20fe2b91cbc78d867fd6e1a1b2fd9a577c0dd53
+parent 9809fd0b4eea54c85a72d159413ab9578c46df17
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-02 15:32:58 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-02 15:32:58 +0900
+
+    (crm) Fix the test execution runners and dockerfile to migrate
+
+
+:100644 100644 13ffe0a6b03bfa24987cd6662fe01e4b056269a6 bef8451307e14f8739d30d0aaa37ccc41b997ec4 M	crm/Dockerfile
+:100644 100644 14b11c6382de0d28c87e1ce52a2383323d884976 87ef4a79a8edbc8120cf9f3b371da87483c59a86 M	crm/djcrm/settings.py

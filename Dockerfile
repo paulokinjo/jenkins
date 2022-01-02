@@ -11,6 +11,6 @@ RUN apt-get update && apt-get install -y docker-ce-cli
 USER jenkins
 RUN jenkins-plugin-cli --plugins "blueocean:1.25.2 docker-workflow:1.26"
 
-ENV BACKUP_VERSION=FULL-2021-12-31_08-46
+ENV BACKUP_VERSION=FULL-2022-01-02_06-34
 
 COPY --chown=jenkins:jenkins data/bkp/${BACKUP_VERSION} /var/jenkins_home

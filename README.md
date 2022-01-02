@@ -7,6 +7,8 @@ $ docker build -t paulokinjo/jenkins:1.0.0 .
 
 # Docker on Docker
 ```
+$ docker network create jenkins
+
 $ docker run --name jenkins-docker --rm --detach \
   --privileged --network jenkins --network-alias docker \
   --env DOCKER_TLS_CERTDIR=/certs \

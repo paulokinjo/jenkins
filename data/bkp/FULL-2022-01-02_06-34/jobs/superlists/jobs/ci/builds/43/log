@@ -1,0 +1,374 @@
+Started by user [8mha:////4Of4DWrktIX9COMTp5gTmDyyg/6tBK4av6FRrx55KiChAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained tdd/goat/app/jenkins/ci/Jenkinsfile from git https://github.com/paulokinjo/python
+[8mha:////4PTYLMAvkHg6JKKDgg1jIRog9BINGUU0Jl97rssWw1igAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4C3D+07nr7qqYl57ccFaU4z3dPohtE+QV6i4MglquHVtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4E3iajOTLbVStXILo2UySeIFPcYCYBr0v+mEoa24hbZyAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/superlists/ci
+[8mha:////4Nxze39dNyGzqZSUniB2KNgirtReLfIBt0Z1Rv2OulVIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4JlYfKjXdvysJpiuLXC5CrUCvzZuVHcnl1tGrBVRWjjPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4MEKsFNP3MJjTDzY2axHlFp151Jn8xFgd8Q0JJwbCsGcAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4L6BlGkJ53RnkWlw/1M8Ti+geW9O6ewe45CB4YgsZIdPAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/paulokinjo/python
+ > git init /var/jenkins_home/workspace/superlists/ci # timeout=10
+Fetching upstream changes from https://github.com/paulokinjo/python
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/paulokinjo/python +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/paulokinjo/python # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 0a79a0007ae6226dca77420fde42455b7ef3edaa (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0a79a0007ae6226dca77420fde42455b7ef3edaa # timeout=10
+Commit message: "Implement the input and table listing to-dos"
+ > git rev-list --no-walk 09087d6c8214ef01385787d756abd414370e83d8 # timeout=10
+[8mha:////4PfI+R3cj4+1zkzCgv+U9oruTq36vvFIcUFeVabK/P9IAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4AHyix6lA0xF++9fm60mFbTH8Fc6bx2DvLn1Wy3RrXkPAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4EkHdQAZR9rriEX65EBs8ZF+J4ryo36/6FLrzFKJnfgVAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4FTWZg4Q9zal+izGJ71B3+FtPT/CE7PZ+Gm0B+25Mkq8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4M3Fn9PVmDlzc78j2UGjeLk9TUh2ZYBNLTmx+SUE0oHyAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ git log --format=%H -n 1
+[8mha:////4B8qgMl8IHGSUMWrEWfyP8yjKbVpRkfHu6zHnyGIGjcDAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] sh
++ git log --format=%H -n 1
+[8mha:////4K1L1fzZmItcxJV3cGvs1sbfRdnmvwujQ+sBhgdVlFP6AAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/ASOlMWO+AAAA[0m[Pipeline] sh
++ echo 430a79a0007ae6226dca77420fde42455b7ef3edaa
+[8mha:////4Eq2MefEVQgRAHyTZ0r0iU3eHFEagXiQupCVOAloTC1pAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUHZgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANc8r4bCAAAA[0m[Pipeline] withEnv
+[8mha:////4H49s6d5l+JVNtXm1n/OxrLoeniJ6gtll7Zvov5x9NoVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] {
+[8mha:////4Py0DeSNdg8IZO5Xzyv64bZ/Q8lbt++3Z9rIz7bATLCcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] stage
+[8mha:////4OD9F3MTKsY1biY9Bf/ov2/GRGliYqbc4SsiRWzFnnzkAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Docker Build)
+[8mha:////4JyC8NIsu6NOWcGjfefbVSkaLW44udA1xJsmBldtsEn8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/superlists/ci/tdd/goat/app
+[8mha:////4Mn7WV1SOXTvDMLNWH10pMJS5QzFzi6RM79JZ6nQfYXcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] {
+[8mha:////4BDeGqf4PNkC6nLqK9Y3RN1xoY5k02JOSqElUbuuCKQBAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] sh
++ docker build -t paulokinjo/python-superlists:430a79a0007ae6226dca77420fde42455b7ef3edaa .
+Sending build context to Docker daemon   29.7kB
+Step 1/9 : FROM python:3.9
+3.9: Pulling from library/python
+0e29546d541c: Pulling fs layer
+9b829c73b52b: Pulling fs layer
+cb5b7ae36172: Pulling fs layer
+6494e4811622: Pulling fs layer
+6f9f74896dfa: Pulling fs layer
+fcb6d5f7c986: Pulling fs layer
+12abdd900563: Pulling fs layer
+ccba14545fc2: Pulling fs layer
+cfadf9880bc2: Pulling fs layer
+6494e4811622: Waiting
+6f9f74896dfa: Waiting
+fcb6d5f7c986: Waiting
+12abdd900563: Waiting
+ccba14545fc2: Waiting
+cfadf9880bc2: Waiting
+9b829c73b52b: Verifying Checksum
+9b829c73b52b: Download complete
+cb5b7ae36172: Verifying Checksum
+cb5b7ae36172: Download complete
+0e29546d541c: Verifying Checksum
+0e29546d541c: Download complete
+fcb6d5f7c986: Verifying Checksum
+fcb6d5f7c986: Download complete
+6494e4811622: Verifying Checksum
+6494e4811622: Download complete
+12abdd900563: Verifying Checksum
+12abdd900563: Download complete
+ccba14545fc2: Verifying Checksum
+ccba14545fc2: Download complete
+cfadf9880bc2: Verifying Checksum
+cfadf9880bc2: Download complete
+6f9f74896dfa: Verifying Checksum
+6f9f74896dfa: Download complete
+0e29546d541c: Pull complete
+9b829c73b52b: Pull complete
+cb5b7ae36172: Pull complete
+6494e4811622: Pull complete
+6f9f74896dfa: Pull complete
+fcb6d5f7c986: Pull complete
+12abdd900563: Pull complete
+ccba14545fc2: Pull complete
+cfadf9880bc2: Pull complete
+Digest: sha256:c0dcc146710fed0a6d62cb55b92f00bfbfc3b931fff6218f4958bab58333c37b
+Status: Downloaded newer image for python:3.9
+ ---> 81f391f1a7d7
+Step 2/9 : WORKDIR /usr/src/app
+ ---> Running in 20c40f8bf316
+Removing intermediate container 20c40f8bf316
+ ---> e7148e2f2d64
+Step 3/9 : ENV PYTHONDONTWRITEBYTECODE 1
+ ---> Running in 527e94087db8
+Removing intermediate container 527e94087db8
+ ---> f0c93813b1e8
+Step 4/9 : ENV PYTHONUNBUFFERED 1
+ ---> Running in d24621a27f66
+Removing intermediate container d24621a27f66
+ ---> 257fa6730850
+Step 5/9 : ENV DJANGO_ALLOWED_HOSTS localhost
+ ---> Running in c068c275d521
+Removing intermediate container c068c275d521
+ ---> 9944fac71914
+Step 6/9 : RUN pip3 install --upgrade pip
+ ---> Running in 3b4a48006cea
+Requirement already satisfied: pip in /usr/local/lib/python3.9/site-packages (21.2.4)
+Collecting pip
+  Downloading pip-21.3.1-py3-none-any.whl (1.7 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 21.2.4
+    Uninstalling pip-21.2.4:
+      Successfully uninstalled pip-21.2.4
+Successfully installed pip-21.3.1
+[91mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+[0mRemoving intermediate container 3b4a48006cea
+ ---> 5e13f0e434c4
+Step 7/9 : COPY ./requirements.txt .
+ ---> 2ad7a3c134c3
+Step 8/9 : RUN pip3 install -r requirements.txt
+ ---> Running in 27603436b4a1
+Collecting Django==4.0
+  Downloading Django-4.0-py3-none-any.whl (8.0 MB)
+Collecting selenium==4.1.0
+  Downloading selenium-4.1.0-py3-none-any.whl (958 kB)
+Collecting webdriver-manager==3.5.2
+  Downloading webdriver_manager-3.5.2-py2.py3-none-any.whl (17 kB)
+Collecting django_nose==1.4.7
+  Downloading django_nose-1.4.7-py2.py3-none-any.whl (26 kB)
+Collecting pinocchio==0.4.3
+  Downloading pinocchio-0.4.3-py3-none-any.whl (12 kB)
+Collecting coverage==6.2
+  Downloading coverage-6.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (215 kB)
+Collecting asgiref<4,>=3.4.1
+  Downloading asgiref-3.4.1-py3-none-any.whl (25 kB)
+Collecting sqlparse>=0.2.2
+  Downloading sqlparse-0.4.2-py3-none-any.whl (42 kB)
+Collecting urllib3[secure]~=1.26
+  Downloading urllib3-1.26.7-py2.py3-none-any.whl (138 kB)
+Collecting trio~=0.17
+  Downloading trio-0.19.0-py3-none-any.whl (356 kB)
+Collecting trio-websocket~=0.9
+  Downloading trio_websocket-0.9.2-py3-none-any.whl (16 kB)
+Collecting configparser
+  Downloading configparser-5.2.0-py3-none-any.whl (19 kB)
+Collecting crayons
+  Downloading crayons-0.4.0-py2.py3-none-any.whl (4.6 kB)
+Collecting requests
+  Downloading requests-2.26.0-py2.py3-none-any.whl (62 kB)
+Collecting nose>=1.2.1
+  Downloading nose-1.3.7-py3-none-any.whl (154 kB)
+Collecting colorama
+  Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting outcome
+  Downloading outcome-1.1.0-py2.py3-none-any.whl (9.7 kB)
+Collecting async-generator>=1.9
+  Downloading async_generator-1.10-py3-none-any.whl (18 kB)
+Collecting sortedcontainers
+  Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Collecting attrs>=19.2.0
+  Downloading attrs-21.4.0-py2.py3-none-any.whl (60 kB)
+Collecting idna
+  Downloading idna-3.3-py3-none-any.whl (61 kB)
+Collecting sniffio
+  Downloading sniffio-1.2.0-py3-none-any.whl (10 kB)
+Collecting wsproto>=0.14
+  Downloading wsproto-1.0.0-py3-none-any.whl (24 kB)
+Collecting cryptography>=1.3.4
+  Downloading cryptography-36.0.1-cp36-abi3-manylinux_2_24_x86_64.whl (3.6 MB)
+Collecting certifi
+  Downloading certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+Collecting pyOpenSSL>=0.14
+  Downloading pyOpenSSL-21.0.0-py2.py3-none-any.whl (55 kB)
+Collecting charset-normalizer~=2.0.0
+  Downloading charset_normalizer-2.0.9-py3-none-any.whl (39 kB)
+Collecting cffi>=1.12
+  Downloading cffi-1.15.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (444 kB)
+Collecting six>=1.5.2
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting h11<1,>=0.9.0
+  Downloading h11-0.12.0-py3-none-any.whl (54 kB)
+Collecting pycparser
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+Installing collected packages: pycparser, cffi, attrs, sortedcontainers, sniffio, six, outcome, idna, h11, cryptography, async-generator, wsproto, urllib3, trio, pyOpenSSL, colorama, charset-normalizer, certifi, trio-websocket, sqlparse, requests, nose, crayons, configparser, asgiref, webdriver-manager, selenium, pinocchio, django-nose, Django, coverage
+Successfully installed Django-4.0 asgiref-3.4.1 async-generator-1.10 attrs-21.4.0 certifi-2021.10.8 cffi-1.15.0 charset-normalizer-2.0.9 colorama-0.4.4 configparser-5.2.0 coverage-6.2 crayons-0.4.0 cryptography-36.0.1 django-nose-1.4.7 h11-0.12.0 idna-3.3 nose-1.3.7 outcome-1.1.0 pinocchio-0.4.3 pyOpenSSL-21.0.0 pycparser-2.21 requests-2.26.0 selenium-4.1.0 six-1.16.0 sniffio-1.2.0 sortedcontainers-2.4.0 sqlparse-0.4.2 trio-0.19.0 trio-websocket-0.9.2 urllib3-1.26.7 webdriver-manager-3.5.2 wsproto-1.0.0
+[91mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+[0mRemoving intermediate container 27603436b4a1
+ ---> 19ff970fbcc3
+Step 9/9 : COPY . .
+ ---> 1b0f2ee236d2
+Successfully built 1b0f2ee236d2
+Successfully tagged paulokinjo/python-superlists:430a79a0007ae6226dca77420fde42455b7ef3edaa
+[8mha:////4G2nWx93IAsXZru2zJC01E70P2jDTpESAXaiYb+c3XuTAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bq7DVH74AAAA=[0m[Pipeline] sh
++ docker tag paulokinjo/python-superlists:430a79a0007ae6226dca77420fde42455b7ef3edaa paulokinjo/python-superlists:latest
+[8mha:////4NJD91B0IV4u/GVxp68qmnk0CHyoD28VTukLAWvenXCtAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23fSZy7ir4AAAA=[0m[Pipeline] }
+[8mha:////4CyWKMwCSNonD5wQb8lTfDTPgnIXbmZ/DsllTjImw4FvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+WR0/FvgAAAA==[0m[Pipeline] // dir
+[8mha:////4B+9naX1lcOPHO0YfDcRIbj8w1QIRZbz6CMlsaAdgpdgAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDpaQUeb4AAAA=[0m[Pipeline] }
+[8mha:////4CjtHDm7q91jOCcAEUwE1BnJ/EwPoDHZQRXOeCQPksqWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+ayz9vvgAAAA==[0m[Pipeline] // stage
+[8mha:////4IGMF/ukumVJQPloPKQKy7I+7t7kkRtfLJ0vGNLmaVLVAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMMCAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g3CkrTTwgAAAA==[0m[Pipeline] stage
+[8mha:////4NM77QABd3oVbOqejSzk4zn+CpZ/AcN4moa8d/qkd6xkAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (Docker Push)
+[8mha:////4HyKL9r2fR+KYm8vYcXfIvfUcIOhugfESRgDtZE4BU4fAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/superlists/ci/tdd/goat/app
+[8mha:////4L5IJHtK91F+bgAXP7HCIBgf/lJsw+LnbCwNZsCK/PAkAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] {
+[8mha:////4G2DLidW5GlHlPm0I8oS89R3GQy5ulCuKVKC/Ox5Sh5wAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] withCredentials
+Masking supported pattern matches of $dockerHubUser or $dockerHubPassword
+[8mha:////4AUXNHnitKb36iySlWDJQKVYWMgj3+L/8beQ8CzibRTeAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] {
+[8mha:////4D3LdOytWYI8OuwAM8Fr8RTrVuVzE/eCFqXKPp9SkPLNAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] sh
+Warning: A secret was passed to "sh" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [dockerHubUser, dockerHubPassword]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
++ docker login -u **** -p ****
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/jenkins_home/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4NjZC7nKNzqSfz5WfH4eRX2yCTqxL6ZXl5jcCtaZlCwzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBq1seBO+AAAA[0m[Pipeline] sh
++ docker push ****/python-superlists:430a79a0007ae6226dca77420fde42455b7ef3edaa
+The push refers to repository [docker.io/****/python-superlists]
+307c05525d2c: Preparing
+05d4edd8f968: Preparing
+b4311a98bdda: Preparing
+87be3a90e9e5: Preparing
+0d6e115727d3: Preparing
+3c33784a62f7: Preparing
+cb6d722583a8: Preparing
+8982e2c53abb: Preparing
+aedcb370b058: Preparing
+c3a0d593ed24: Preparing
+26a504e63be4: Preparing
+8bf42db0de72: Preparing
+31892cc314cb: Preparing
+11936051f93b: Preparing
+3c33784a62f7: Waiting
+cb6d722583a8: Waiting
+8982e2c53abb: Waiting
+aedcb370b058: Waiting
+c3a0d593ed24: Waiting
+26a504e63be4: Waiting
+8bf42db0de72: Waiting
+31892cc314cb: Waiting
+11936051f93b: Waiting
+307c05525d2c: Pushed
+b4311a98bdda: Pushed
+0d6e115727d3: Pushed
+cb6d722583a8: Layer already exists
+3c33784a62f7: Layer already exists
+8982e2c53abb: Layer already exists
+c3a0d593ed24: Layer already exists
+aedcb370b058: Layer already exists
+26a504e63be4: Layer already exists
+87be3a90e9e5: Pushed
+31892cc314cb: Layer already exists
+11936051f93b: Layer already exists
+8bf42db0de72: Layer already exists
+05d4edd8f968: Pushed
+430a79a0007ae6226dca77420fde42455b7ef3edaa: digest: sha256:2a1d11ee363a65ef113c53c7acfbce6b988953b94bbf9c1a2b20338189901e68 size: 3264
+[8mha:////4HvDP2bHvFeXTNcq+rYabYGYxnnckPQRxyolvZMr9LSvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN+xdYwq+AAAA[0m[Pipeline] sh
++ docker push ****/python-superlists:latest
+The push refers to repository [docker.io/****/python-superlists]
+307c05525d2c: Preparing
+05d4edd8f968: Preparing
+b4311a98bdda: Preparing
+87be3a90e9e5: Preparing
+0d6e115727d3: Preparing
+3c33784a62f7: Preparing
+cb6d722583a8: Preparing
+8982e2c53abb: Preparing
+aedcb370b058: Preparing
+c3a0d593ed24: Preparing
+26a504e63be4: Preparing
+8bf42db0de72: Preparing
+31892cc314cb: Preparing
+11936051f93b: Preparing
+3c33784a62f7: Waiting
+cb6d722583a8: Waiting
+8982e2c53abb: Waiting
+aedcb370b058: Waiting
+c3a0d593ed24: Waiting
+26a504e63be4: Waiting
+8bf42db0de72: Waiting
+31892cc314cb: Waiting
+11936051f93b: Waiting
+b4311a98bdda: Layer already exists
+307c05525d2c: Layer already exists
+05d4edd8f968: Layer already exists
+0d6e115727d3: Layer already exists
+87be3a90e9e5: Layer already exists
+3c33784a62f7: Layer already exists
+cb6d722583a8: Layer already exists
+c3a0d593ed24: Layer already exists
+8982e2c53abb: Layer already exists
+aedcb370b058: Layer already exists
+26a504e63be4: Layer already exists
+8bf42db0de72: Layer already exists
+11936051f93b: Layer already exists
+31892cc314cb: Layer already exists
+latest: digest: sha256:2a1d11ee363a65ef113c53c7acfbce6b988953b94bbf9c1a2b20338189901e68 size: 3264
+[8mha:////4Enol1f0p7imvWER0R5Ql3Z8FNEUHUR7wN4DulgSSuCiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] }
+[8mha:////4JfzvgZ1qQek8+BuieKlMfPkdwF4s48mERSladcBpWofAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgE81EHZvgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4IvIbM3boygou9pNGGiNiPkThIhbcPIm2GL8eY2uHD2uAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRIOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgF/VhBfvgAAAA==[0m[Pipeline] }
+[8mha:////4FXl4RG4PnEoC7fF++ACxppSPyj5V/NwzpDLXzDQKP2+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQRUhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QE/DIv0vgAAAA==[0m[Pipeline] // dir
+[8mha:////4E/sSdER4qrt3naeEXFtxzn6feFKGKTGcTC8SQtI+tTVAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA71MkYb4AAAA=[0m[Pipeline] }
+[8mha:////4HNWwrMyGrYWvKRyHQbITmNpo3zIu9IaNy8Es/L/vWJ5AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA253HOr4AAAA=[0m[Pipeline] // stage
+[8mha:////4FVpbxNj/NPZsEcbn4Dw1cNl/8+XPHNrZWHITxBvn2H6AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIMSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WfbbT/P6g1LNqngwgAAAA==[0m[Pipeline] stage
+[8mha:////4OAWSdgPKotJ3lFhN6t3vDKOkC9AJWDIPmuDserhU8SuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] { (Unit Test)
+[8mha:////4CoFii3origqiE+VKiUr77w6Cec4RfjtmkZIFxQi2SNyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] withEnv
+[8mha:////4GUK8dfGbQIZHLaETg0akyE6XD+ys4tYgl3TChcxEh4xAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] {
+[8mha:////4KdGX9ZDOoJBRGbfDiS02C8qnJ+2T0bpZ1cNAfrcAsqdAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUxleXrCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/superlists/ci/tdd/goat/app
+[8mha:////4NFJZngy+1WBANyJiGtQDcl95aBa1CiGRukRFFGIuc1PAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] {
+[8mha:////4HMR+MygCsvlnOOCwmdCUs+OfRl6nShT5oLohQz2iLvxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] sh
++ docker container run --rm -v /var/jenkins_home/workspace/superlists/ci/tdd/goat/app:/usr/src/app paulokinjo/python-superlists:latest python3 manage.py test lists/
+nosetests lists/ --with-spec --spec-color --with-coverage --cover-html --cover-package=. --cover-html-dir=reports/cover --verbosity=1
+Creating test database for alias 'default'...
+
+Home page
+- home page returns correct html
+- root url resolves to home page view
+
+Name                           Stmts   Miss  Cover
+--------------------------------------------------
+functional_tests.py               28     28     0%
+lists/__init__.py                  0      0   100%
+lists/admin.py                     1      1     0%
+lists/apps.py                      4      4     0%
+lists/migrations/__init__.py       0      0   100%
+lists/models.py                    1      1     0%
+lists/tests.py                    17      0   100%
+lists/views.py                     3      0   100%
+manage.py                         12     12     0%
+superlists/__init__.py             0      0   100%
+superlists/asgi.py                 4      4     0%
+superlists/settings.py            22     22     0%
+superlists/urls.py                 3      0   100%
+superlists/wsgi.py                 4      4     0%
+--------------------------------------------------
+TOTAL                             99     76    23%
+----------------------------------------------------------------------
+Ran 2 tests in 0.029s
+
+OK
+
+Destroying test database for alias 'default'...
+[8mha:////4HLGp7M4dZgstnC2bKGf+meuBVSV+FjbX0msemHZ1xj1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEwuM6AvgAAAA==[0m[Pipeline] }
+[8mha:////4JsGfkbNnbtgcD6nis1TONlasPAfxFAlv23pqrdJftUqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCATQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHa0rF2vgAAAA==[0m[Pipeline] // dir
+[8mha:////4AKtzlyM7dl82/hPZ+vW/EMA345a9gdfXj4lwH1uqQwxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJFIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QHFUOQkvgAAAA==[0m[Pipeline] }
+[8mha:////4IpPsy1EdSea1dh9gn24q4iyX4+aVKjz+Bbpl0ni+4DqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRUKgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygP+1x1/QH9EnfVvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4DzDqLOOeATCB0lxNKn0PgtzQgr7Zqk0C9IVGANM8ZU+AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP/tUT4C+AAAA[0m[Pipeline] }
+[8mha:////4LZidCV24bbLh5acuDt1wZW1pqfQfxDfsnTFXxGn71vHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRUKgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygPda56/wHVVE3qvgAAAA==[0m[Pipeline] // stage
+[8mha:////4K6WjOl3WgjFXbWAR8NI186nwdPRDskWDKDrTWMjr2f8AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDGVBTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQFHDdtbwgAAAA==[0m[Pipeline] stage
+[8mha:////4NUcNF4qvr+lSt51ISRbU05RYcf72PrkKi4UmejdUWvDAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4JnxD2S9Gj02hWmIT/67LCzcc4IHZUDo/d976e0WHl3ZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBkhu+A6+AAAA[0m[Pipeline] publishHTML
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at BUILD level /var/jenkins_home/workspace/superlists/ci/tdd/goat/app/reports/cover to /var/jenkins_home/jobs/superlists/jobs/ci/builds/43/htmlreports/SuperLists_20Test_20Coverage_20Report
+[8mha:////4Gibpme8C72FqqlDumw2aAd2nR+iR3pi3z8ENuhab2fSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N/Zh+YO+AAAA[0m[Pipeline] }
+[8mha:////4KxHjqIq0sSU1KONTrmTBIWwlea8ZBU2b5F6+XrqAcfxAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSpXAcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rf6eOs0b4AAAA=[0m[Pipeline] // stage
+[8mha:////4GluRrsThSHWAjThQgx12ErM5827zZ+9F/K/aV+VSDoCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICTRpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoPwI8Ljq+AAAA[0m[Pipeline] }
+[8mha:////4EZuU4pLwIptKdSuK3E+WHKhYPr8vn+S2XYufvg0GzjdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiFNAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda56/wEdvntovgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4GCithbtg1z0zkzCujKUkdLAa3dMBNL9w9fV40gU1NqeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUNAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygP+1x1/QGqCILpvgAAAA==[0m[Pipeline] }
+[8mha:////4Bqydc2oStFeORVHzV0Q842KVgXNLvPY7fdqmlQftUEwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICQqJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rl22w+Z69lVvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4CWq2MFWzWk3XmBbB362wnjP5mFCj2oXroe1Ji8/A3rlAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0jI1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwA/b3AOr0AAAA=[0m[Pipeline] }
+[8mha:////4BXCxcC3eu023bsvhYcSvpNiRSlVtbrlD9dYvvZkqU7uAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsP7gHEmb0AAAA=[0m[Pipeline] // node
+[8mha:////4NC4HHr6sCzQffHRlZCgwe13vFL56dBHIRgIR1JP7+8sAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkDizGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HqEtjqb0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

@@ -1,0 +1,157 @@
+commit 0a79a0007ae6226dca77420fde42455b7ef3edaa
+tree df6305d08288e5886e98941e9cd19ca981faa5e6
+parent 2f48163655d573bb0d23d0a209a7107b382046c2
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 20:30:09 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 20:30:09 +0900
+
+    Implement the input and table listing to-dos
+
+
+:100644 100644 6b4de25a9ea046d91433f76349c88ead98737119 7b9c7b856cebbbdeea10175ae727afe49f7b16f5 M	tdd/goat/app/functional_tests.py
+:100644 100644 0ab799830b921ef46d32e170ce8fa0f0e97d7552 77dde97742efa432a6a749b3be1bcd3d2494e17e M	tdd/goat/app/lists/templates/home.html
+commit 2f48163655d573bb0d23d0a209a7107b382046c2
+tree cf398a8be3e249641a138a065d982ec0ce0f4a3d
+parent 1db91f400f1e0753d0d44ecb7f30c2837c65f669
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 20:23:02 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 20:23:02 +0900
+
+    Refactor home page view to use a template
+
+
+:100644 100644 8c88faf1841761142de68c2f2504d6b47e5e4be1 6b4de25a9ea046d91433f76349c88ead98737119 M	tdd/goat/app/functional_tests.py
+:000000 100644 0000000000000000000000000000000000000000 0ab799830b921ef46d32e170ce8fa0f0e97d7552 A	tdd/goat/app/lists/templates/home.html
+:100644 100644 805158bb568a87b41052826433dbd7cba15008a6 2430cd89d19d2ecf34af3461a4511953dff54a3f M	tdd/goat/app/lists/tests.py
+:100644 100644 c2452b264550ac18d250fc3c1c3f3c0801b471b9 c37fa4bd5c9b61c6e376854f07e80761f7e9ff21 M	tdd/goat/app/lists/views.py
+:100644 100644 ec7d21b1598f506ebfe5c4a7c65add7a96c66fc4 c3f3402e9dd726b59a74094d57c2dd0c1f988cd6 M	tdd/goat/app/superlists/settings.py
+commit 1db91f400f1e0753d0d44ecb7f30c2837c65f669
+tree 796401ee586b23dc5d87ae203f22d0b89000d4f7
+parent 75d3856fad70ed2b63573ba66f12d9bbf117c1a7
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 15:43:26 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 15:43:26 +0900
+
+    Fix typo
+
+
+:100644 100644 cc7e97549d694e550bca7bb9b9ecd442694637d8 ac1c0fd6a87c1a5e00f2d39701fc39b0083e5992 M	tdd/goat/app/jenkins/ci/Jenkinsfile
+commit 75d3856fad70ed2b63573ba66f12d9bbf117c1a7
+tree b11498c0d56e137c607850db8d404875de5ed993
+parent b8cefcd3ed2af3589d8e2935eaa9da1b9f576e22
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 15:41:51 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 15:41:51 +0900
+
+    Code coverage support
+
+
+:100644 100644 4b30972c147e582521504168c000bae9b47d9327 cc7e97549d694e550bca7bb9b9ecd442694637d8 M	tdd/goat/app/jenkins/ci/Jenkinsfile
+commit b8cefcd3ed2af3589d8e2935eaa9da1b9f576e22
+tree 1b3d48d71325ccd68ee80f4e74ffc01d375c1d27
+parent 514cb9ea2be62a9085842f239354015d4cf4adfe
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 15:13:38 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 15:13:38 +0900
+
+    Add env variable
+
+
+:100644 100644 0605a8189b85ca9948b82f98c749dcecb7bae2f6 4b30972c147e582521504168c000bae9b47d9327 M	tdd/goat/app/jenkins/ci/Jenkinsfile
+commit 514cb9ea2be62a9085842f239354015d4cf4adfe
+tree 87c752cbd9c90b2275246f2db8ed667094195e29
+parent 2ef24199f972fca21e6d0ea6b46a28e725595d51
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 15:13:07 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 15:13:07 +0900
+
+    Add env variable
+
+
+:100644 100644 5c3397c174d853a19c417d28f5326189cc0db792 08812df61473a1a93b7823be4976bdfc70d6ce52 M	tdd/goat/app/Dockerfile
+commit 2ef24199f972fca21e6d0ea6b46a28e725595d51
+tree a515fa47969d73aa8143dd5fa493647d731aa2ce
+parent 9d7d876c4a0618ea6003a4e98baf4fb0b9bba4b4
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 15:09:42 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 15:09:42 +0900
+
+    Unittest
+
+
+:100644 100644 beb8e78859713f97f39a12ab403289dd4011adf5 5c3397c174d853a19c417d28f5326189cc0db792 M	tdd/goat/app/Dockerfile
+:100644 100644 7cde39ff34c14459a79fbd59257eefa991232c78 0605a8189b85ca9948b82f98c749dcecb7bae2f6 M	tdd/goat/app/jenkins/ci/Jenkinsfile
+commit 9d7d876c4a0618ea6003a4e98baf4fb0b9bba4b4
+tree e5e77b2a3400e54b64382dba99391eb2a2eb796e
+parent 5068a20ef2da5d6e9b9f49e87162d90edee3e7ea
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 14:23:17 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 14:23:17 +0900
+
+    Change order of unittest
+
+
+:100644 100644 520383f917422766706cdc135d1ade22c230f477 7cde39ff34c14459a79fbd59257eefa991232c78 M	tdd/goat/app/jenkins/ci/Jenkinsfile
+commit 5068a20ef2da5d6e9b9f49e87162d90edee3e7ea
+tree 2b4f8d6e8958d1c5c0aa74c6633085aa7b8ef75c
+parent 35f1fa1ff5efddceb0c4e7759079472f5510c5f3
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 13:55:50 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 13:55:50 +0900
+
+    Add the prepare and install stages
+
+
+:100644 100644 2e1882782b8212a1befba786a82bc05cf1ff5cca 520383f917422766706cdc135d1ade22c230f477 M	tdd/goat/app/jenkins/ci/Jenkinsfile
+commit 35f1fa1ff5efddceb0c4e7759079472f5510c5f3
+tree 76161bbb3bede36836738ad92c561ea8a123eb84
+parent 8ea00ffe24ab128dc028def789873cf185522cbc
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 13:45:23 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 13:45:23 +0900
+
+    Remove prepare stage
+
+
+:100644 100644 26977e108de5b15935ee932ae03e3184d8441afd 2e1882782b8212a1befba786a82bc05cf1ff5cca M	tdd/goat/app/jenkins/ci/Jenkinsfile
+commit 8ea00ffe24ab128dc028def789873cf185522cbc
+tree 9f17ae410c490ea8a2db244a029bc0ab286d291a
+parent 81a115205b84a0a491b94874630f408f6f9026a6
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 13:44:14 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 13:44:14 +0900
+
+    Install git
+
+
+:100644 100644 645000518e06703037deda9534222f340dd4b92d 26977e108de5b15935ee932ae03e3184d8441afd M	tdd/goat/app/jenkins/ci/Jenkinsfile
+commit 81a115205b84a0a491b94874630f408f6f9026a6
+tree e7b1026c87170e8167e37d4f38ce96508f37ec03
+parent aa1f655535a15989acbc5007b8f7d5fcee75cafc
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 13:30:00 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 13:30:00 +0900
+
+    Change the agent
+
+
+:100644 100644 0a784a3e45d2dd3efed68534044d6c2568c1eab2 645000518e06703037deda9534222f340dd4b92d M	tdd/goat/app/jenkins/ci/Jenkinsfile
+commit aa1f655535a15989acbc5007b8f7d5fcee75cafc
+tree 32c50dccbe4cda85efe98b2828b38f267330c25e
+parent c6ed8fce74866cfa44f6a534d9f5cff880570d0d
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 13:20:13 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 13:20:13 +0900
+
+    Install requirementes
+
+
+:100644 100644 6c1069393a408eab9b5b6ed4afa0a1e248500428 0a784a3e45d2dd3efed68534044d6c2568c1eab2 M	tdd/goat/app/jenkins/ci/Jenkinsfile
+commit c6ed8fce74866cfa44f6a534d9f5cff880570d0d
+tree 94f7622407eafe7c164b1ab8888c5ec915f510c5
+parent 09087d6c8214ef01385787d756abd414370e83d8
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 13:01:04 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-01 13:01:04 +0900
+
+    Add unit test stage to superlists pipeline
+
+
+:100644 100644 6682510b591d3ae5dce2b07dc9792f66659d106d 81cd811e692d1531bcde7419d59b63783c6551b4 M	.gitignore
+:100644 100644 1f6c695c54a4cdf92bf06af475a3409a5bb04d98 6c1069393a408eab9b5b6ed4afa0a1e248500428 M	tdd/goat/app/jenkins/ci/Jenkinsfile
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	tdd/goat/app/lists/__init__.py
+:000000 100644 0000000000000000000000000000000000000000 8c38f3f3dad51e4585f3984282c2a4bec5349c1e A	tdd/goat/app/lists/admin.py
+:000000 100644 0000000000000000000000000000000000000000 3b741f8534714b8ff7ec980062eb3b4df3600f43 A	tdd/goat/app/lists/apps.py
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	tdd/goat/app/lists/migrations/__init__.py
+:000000 100644 0000000000000000000000000000000000000000 71a836239075aa6e6e4ecb700e9c42c95c022d91 A	tdd/goat/app/lists/models.py
+:000000 100644 0000000000000000000000000000000000000000 805158bb568a87b41052826433dbd7cba15008a6 A	tdd/goat/app/lists/tests.py
+:000000 100644 0000000000000000000000000000000000000000 c2452b264550ac18d250fc3c1c3f3c0801b471b9 A	tdd/goat/app/lists/views.py
+:100644 100644 fefd938b19979dd0243902438a8fa540d28ba084 2b0b6b845e00910c7ed0c16ee529c2f2effa84c1 M	tdd/goat/app/requirements.txt
+:100644 100644 e88f5eb8586093dc19fe87ee3124255a612f0a8e ec7d21b1598f506ebfe5c4a7c65add7a96c66fc4 M	tdd/goat/app/superlists/settings.py
+:100644 100644 c9bb208de49dd42a898fd8a577191daf9db1adc8 0a1f0cfaf7bdd935401c54172c3944e16e76839e M	tdd/goat/app/superlists/urls.py
