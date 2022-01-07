@@ -1,0 +1,12 @@
+commit 4229e1e0b770dedf8058d2dd38e369faa737863d
+tree 2d1fe73ba3dff45a6394583316509c6293764488
+parent f845b7a12267184e61c9ce20d07c86d8fba78a90
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-07 17:24:16 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-07 17:24:16 +0900
+
+    (ify): Update Jenkinsfile and Dockerfile
+
+
+:100644 100644 4f9a5744cfb5f7edb4292abcb518d41e017e5e36 62d8b37a0e4bc0f41e5f2883facb56b774ba5d80 M	ify/Dockerfile
+:100644 100644 f3f9c1ea28489a14343b448e9b7e5f957b5dc6aa 97cdfdb641bafbf925da95f35f94f2bfe8a9dd88 M	ify/build.gradle
+:100644 100644 be883801119af0ce0e8494327c5008cef8d5852f eee6e875dd984f0f970250d8a6e0ee38462b4f2f M	ify/jenkins/ci/Jenkinsfile

@@ -67,7 +67,7 @@
     </entry>
     <entry>
       <string>mailer</string>
-      <string>1.34</string>
+      <string>391.ve4a_38c1b_cf4b_</string>
     </entry>
     <entry>
       <string>jackson2-api</string>
@@ -422,6 +422,10 @@
       <string>1.25.2</string>
     </entry>
     <entry>
+      <string>jacoco</string>
+      <string>3.3.1</string>
+    </entry>
+    <entry>
       <string>ssh-slaves</string>
       <string>1.33.0</string>
     </entry>
@@ -470,5 +474,5 @@
       <string>3.1.5.2</string>
     </entry>
   </plugins>
-  <pluginsXml>/var/jenkins_home/bkp/FULL-2022-01-02_06-34/installedPlugins.xml</pluginsXml>
+  <pluginsXml>/var/jenkins_home/bkp/FULL-2022-01-07_08-29/installedPlugins.xml</pluginsXml>
 </org.jvnet.hudson.plugins.thinbackup.backup.PluginList>

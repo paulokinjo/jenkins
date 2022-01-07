@@ -1,0 +1,78 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.53">
+  <suites>
+    <suite>
+      <file>/var/jenkins_home/workspace/ify/ci/ify/build/test-results/test/TEST-com.hoax.ify.IfyApplicationTests.xml</file>
+      <name>com.hoax.ify.IfyApplicationTests</name>
+      <stdout>08:24:58.924 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+08:24:58.959 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDel
+...[truncated 10411 chars]...
+ManagerFactory for persistence unit &apos;default&apos;
+2022-01-07 08:25:07.505  WARN 3310 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-07 08:25:09.571  INFO 3310 --- [    Test worker] com.hoax.ify.IfyApplicationTests         : Started IfyApplicationTests in 9.367 seconds (JVM running for 13.367)
+</stdout>
+      <stderr></stderr>
+      <duration>0.446</duration>
+      <timestamp>2022-01-07T08:25:09</timestamp>
+      <time>0.446</time>
+      <nodeId>42</nodeId>
+      <enclosingBlocks>
+        <string>36</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Test</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.446</duration>
+          <className>com.hoax.ify.IfyApplicationTests</className>
+          <testName>contextLoads()</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/ify/ci/ify/build/test-results/test/TEST-com.hoax.ify.UserControllerTest.xml</file>
+      <name>com.hoax.ify.UserControllerTest</name>
+      <stdout>2022-01-07 08:25:10.103  INFO 3310 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hoax.ify.UserControllerTest], using SpringBootContextLoader
+2022-01-07 08:25:10.104  INFO 3310 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.hoax.ify.UserControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-
+...[truncated 7135 chars]...
+tarted UserControllerTest in 2.337 seconds (JVM running for 16.288)
+2022-01-07 08:25:12.829  INFO 3310 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet &apos;dispatcherServlet&apos;
+2022-01-07 08:25:12.830  INFO 3310 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet &apos;dispatcherServlet&apos;
+2022-01-07 08:25:12.840  INFO 3310 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+</stdout>
+      <stderr></stderr>
+      <duration>0.773</duration>
+      <timestamp>2022-01-07T08:25:12</timestamp>
+      <time>0.773</time>
+      <nodeId>42</nodeId>
+      <enclosingBlocks>
+        <string>36</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Test</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.584</duration>
+          <className>com.hoax.ify.UserControllerTest</className>
+          <testName>postUser_whenUserIsValid_userSavedToDatabase()</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.188</duration>
+          <className>com.hoax.ify.UserControllerTest</className>
+          <testName>postUser_whenUserIsValid_receiveOk()</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>1.219</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

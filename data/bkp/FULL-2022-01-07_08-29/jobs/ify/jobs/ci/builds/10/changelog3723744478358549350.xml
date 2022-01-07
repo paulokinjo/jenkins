@@ -1,0 +1,20 @@
+commit f845b7a12267184e61c9ce20d07c86d8fba78a90
+tree b7e9d824a894556cbcef0e50b0ba8beeab55b001
+parent c42b4bff065d325c90f8aa882652130a0133ecd5
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-07 17:12:52 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-07 17:12:52 +0900
+
+    (ify): Update Jenkinsfile and Dockerfile
+
+
+:100644 100644 91a7b92b629cd872f562ceb626ab4ab1797b3a9b be883801119af0ce0e8494327c5008cef8d5852f M	ify/jenkins/ci/Jenkinsfile
+commit c42b4bff065d325c90f8aa882652130a0133ecd5
+tree efa7298c5a604be307e5f4bc7ae2058042895b0b
+parent 86d8e9d23195c7e3825f5208d9c8a6cd08b198d4
+author Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-07 17:12:26 +0900
+committer Paulo Kinjo <paulokinjo@hotmail.com> 2022-01-07 17:12:26 +0900
+
+    (ify): Update Jenkinsfile and Dockerfile
+
+
+:100644 100644 4c835a71478fa20714c65bf244bfebeb14a46627 91a7b92b629cd872f562ceb626ab4ab1797b3a9b M	ify/jenkins/ci/Jenkinsfile
